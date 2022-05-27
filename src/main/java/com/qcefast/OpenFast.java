@@ -16,7 +16,7 @@
 
 package com.qcefast;
 
-import com.qcefast.main.Fast_Main;
+import com.qcefast.starter.FastStarter;
 
 import java.io.IOException;
 
@@ -42,7 +42,7 @@ public class OpenFast {
 	 * @since 1.0.0
 	 */
 	public static void main(String[] args) throws IOException {
-		Fast_Main.main(args);
+		FastStarter.main(args);
 	}
 	
 }
