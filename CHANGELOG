@@ -1,1 +1,11 @@
+v1.1.0
+======
 
+* Added gifs for the majority of the Actions
+* Added gifs for the majority of DataTypes
+* Updated COPY_FILE, COPY_FILE_TSTEP, MOVE_FILE, MOVE_FILE_TSTEP functionality
+    - The data field is now used for the destination file, and dataparameters field is used for the target file
+* Removed DataType and DataGen from actions that would likely not use it. For those that may use it, added a note to
+  say that they are optional
+* Delimiter is now specifically used internally.
+* Exception names will no longer appear in html report, only the exception message.
