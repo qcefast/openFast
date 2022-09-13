@@ -6,7 +6,7 @@
 
 	<groupId>com.qcefast</groupId>
 	<artifactId>openFast</artifactId>
-	<version>1.1.1</version>
+	<version>1.2.0</version>
 	<packaging>jar</packaging>
 
 	<name>OpenFast</name>
@@ -164,7 +164,7 @@
 		<dependency>
 			<groupId>com.qcefast</groupId>
 			<artifactId>fast-core</artifactId>
-			<version>1.1.1</version>
+			<version>1.2.0</version>
 		</dependency>
 	</dependencies>
 </project>

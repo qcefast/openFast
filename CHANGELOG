@@ -1,3 +1,35 @@
+v1.2.0
+======
+* Added Other field to TestStep
+    - This field functions as a miscellaneous field for test steps
+* Added MAXIMIZE_BROWSER action
+    - Maximizes the browser window
+* Added FULLSCREEN action
+    - Sets the browser window to fullscreen
+* Added browserSize property
+    - Sets the size the browser will open with by specifying height and width
+    - Example: browserSize=1024,768
+    - If the property isn't used, the value doesn't have the proper syntax, or the value is 'maximzie', the browser will
+      be maximized after launching
+* Added headless property
+    - The webdriver will run with headless set to true
+* com.qcefast.util.ActionResolver is now com.qcefast.util.BrowserActions
+* The frameElement field of com.qcefast.frameworkSpecific.FastElement is now called parentFrame
+    - The getter and setter methods have been updated
+* Updated retry logic
+    - Retry and browserloop logic will repeat even if element has been found, for the cases where an there was an issue
+      interacting with the found object
+    - com.qcefast.fastXml.TestStep now has an attribute called dontRetryAction. Setting this field to true, will allow
+      the test step fail without additional retries, if the element was found but an issue occurred while trying to
+      interact with it. com.qcefast.frameworkSpecific.FastElement also has a corresponding field called dontRetryIfFound
+      which functions in the same way
+* com.qcefast.frameworkSpecific.FastElement now has a performFastElementAction() method.
+    - This will perform an action on a found fastElement based on the action set using
+      fastElement.setAction(com.qcefast.enums.Action)
+* Added scrollIntoView method to com.qcefast.frameworkSpecific.FastElement
+    - When finding elements, the framework will use this method with true as the parameter will be executed in order to
+      scroll elements into view
+
 v1.1.1
 ======
 
