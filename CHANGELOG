@@ -1,3 +1,6 @@
+v1.2.1
+======
+* Added fix for 403 Forbidden error that occurred when Chrome Browser was launched in headless mode
 v1.2.0
 ======
 * Added Other field to TestStep
