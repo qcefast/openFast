@@ -1,3 +1,20 @@
+v1.3.0
+======
+* Added FIREFOX browser support
+    - Set the browserType property to FIREFOX in order to use Firefox as your browser
+* Added EDGE browser support
+    - Set the browserType property to EDGE in order to use Edge as your browser
+* Added SAFARI browser support (not fully supported)
+    - Set the browserType property to SAFARI in order to use Safari as your browser
+* An error will now be displayed if a browser that's not supported is used
+* An error will now be displayed telling the user whether they need to enable automation in their browser
+* Updated guava dependency from 22.0 to 31.1-jre
+* Updated selenium-java dependency from 4.1.3 to 4.5.3
+
+v1.2.2
+======
+* Fixed issue where automation was failing after performing an action that causes the browser to change pages
+
 v1.2.1
 ======
 * Added fix for 403 Forbidden error that occurred when Chrome Browser was launched in headless mode
