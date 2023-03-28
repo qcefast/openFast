@@ -1,3 +1,14 @@
+v1.4.1
+======
+* Updated selenium dependency to version 4.8.3
+* FastElement.setParentFrame has been changed to switchToParentFrame
+    - uses the FastDriver of the fastElement to switch frames
+    - if there is a need to switch into nested iframes, delimit each one with the characters '|;'. Stacking locator::
+      attributes is also possible for switching into nested iframes. If using eFast, only the '|' character will be
+      required as eFast automatically inserts the ';' between attributes
+        - ex. locator::XPath=//iframe[@id='frame1']|;locator::XPath=//iframe[@name='frame2']
+    - ProcessXmlDriver will set the FastDriver back to the default window once a TestStep finishes executing its action
+
 v1.4.0
 ======
 * Added SUBSTRING datatype

@@ -6,7 +6,7 @@
 
 	<groupId>com.qcefast</groupId>
 	<artifactId>openFast</artifactId>
-	<version>1.4.0</version>
+	<version>1.4.1</version>
 	<packaging>jar</packaging>
 
 	<name>OpenFast</name>
@@ -37,15 +37,6 @@
 			<organizationUrl>https://qcefast.com/</organizationUrl>
 			<roles>
 				<role>Owner</role>
-			</roles>
-		</developer>
-		<developer>
-			<name>Keyun Dick</name>
-			<email>keyundick@quartconsulting.com</email>
-			<organization>Quart Consulting Services, LLC</organization>
-			<organizationUrl>https://qcefast.com/</organizationUrl>
-			<roles>
-				<role>Commiter</role>
 			</roles>
 		</developer>
 	</developers>
@@ -164,7 +155,7 @@
 		<dependency>
 			<groupId>com.qcefast</groupId>
 			<artifactId>fast-core</artifactId>
-			<version>1.4.0</version>
+			<version>1.4.1</version>
 		</dependency>
 	</dependencies>
 </project>
