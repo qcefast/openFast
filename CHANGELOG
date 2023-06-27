@@ -1,3 +1,7 @@
+v1.4.2
+======
+* Headless option
+
 v1.4.1
 ======
 * Updated selenium dependency to version 4.8.3
