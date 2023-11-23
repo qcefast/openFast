@@ -6,7 +6,7 @@
 
 	<groupId>com.qcefast</groupId>
 	<artifactId>openFast</artifactId>
-	<version>1.4.2</version>
+	<version>1.4.4</version>
 	<packaging>jar</packaging>
 
 	<name>OpenFast</name>
@@ -141,7 +141,7 @@
 			<plugin>
 				<groupId>org.sonatype.plugins</groupId>
 				<artifactId>nexus-staging-maven-plugin</artifactId>
-				<version>1.6.9</version>
+				<version>1.6.13</version>
 				<extensions>true</extensions>
 				<configuration>
 					<serverId>ossrh</serverId>
@@ -155,7 +155,7 @@
 		<dependency>
 			<groupId>com.qcefast</groupId>
 			<artifactId>fast-core</artifactId>
-			<version>1.4.2</version>
+			<version>1.4.4</version>
 		</dependency>
 	</dependencies>
 </project>
