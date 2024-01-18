@@ -6,7 +6,7 @@
 
 	<groupId>com.qcefast</groupId>
 	<artifactId>openFast</artifactId>
-	<version>1.4.4</version>
+	<version>1.4.5</version>
 	<packaging>jar</packaging>
 
 	<name>OpenFast</name>
@@ -146,7 +146,7 @@
 				<configuration>
 					<serverId>ossrh</serverId>
 					<nexusUrl>https://s01.oss.sonatype.org/</nexusUrl>
-					<autoReleaseAfterClose>true</autoReleaseAfterClose>
+					<autoReleaseAfterClose>false</autoReleaseAfterClose>
 				</configuration>
 			</plugin>
 		</plugins>
@@ -155,7 +155,7 @@
 		<dependency>
 			<groupId>com.qcefast</groupId>
 			<artifactId>fast-core</artifactId>
-			<version>1.4.4</version>
+			<version>1.4.5</version>
 		</dependency>
 	</dependencies>
 </project>
